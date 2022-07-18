@@ -3,65 +3,112 @@
     src: url("assets/fonts/RobotoThin.ttf");
     font-weight: 100;
   }
-  @font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/RobotoRegular.ttf");
-    font-weight: 300;
-  }
-  * {
-    box-sizing: border-box;
-  }
+  
   body {
     min-height: 100vh;
     margin: 0; padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     font-family: 'Roboto', sans-serif;
   }
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+  .main {
+    max-width: 1440px;
   }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
   .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
+
+  header {
+    background-color: rgb(212, 212, 166);
+    max-width: 1440px;
+    margin: auto;
+  }
+
   .nav-list {
     display: flex;
     align-items: center;
     list-style: none;
   }
-  .nav-link {
+
+  .nav-list a {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
   }
-  html {
-    scroll-behavior: smooth; 
-  }
-  .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
-  .main-container {
+
+  nav{
+    padding: 0% 5%;
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  .section {
+
+  nav a{
+    color: black;
+    width: 20%;
+    margin: 0px 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  section {
     width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
   }
-  @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
+
+  .section-name {
+    width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
   }
-  .image {
-    width: 150px;
-    height: 150px;
+
+  .section-image {
+    width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
   }
+
+  .footer {
+    background-color: rgb(212, 212, 166);
+    height: 50px;
+    padding: 16px;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .footer a {
+    margin: auto 15px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin: 15px 15px;
+    display: block;
+    background-image: url(rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  
+  span {
+    margin: auto 15px;
+  }
+ 
