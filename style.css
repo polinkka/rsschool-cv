@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+  }
+  
+  body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .main {
+    max-width: 1440px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header {
+    background-color: rgb(212, 212, 166);
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-list a {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+  }
+
+  nav{
+    padding: 0% 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a{
+    color: black;
+    width: 20%;
+    margin: 0px 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  section {
+    width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
+  }
+
+  .section-name {
+    width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+
+  .section-image {
+    width: 50%;
+    border: 1px;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 166);
+  }
+
+  .footer {
+    background-color: rgb(212, 212, 166);
+    height: 50px;
+    padding: 16px;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .footer a {
+    margin: auto 15px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin: 15px 15px;
+    display: block;
+    background-image: url(rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  
+  span {
+    margin: auto 15px;
+  }
+ 
